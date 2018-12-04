@@ -1,7 +1,8 @@
 
-
 spring:
   redis:
-    password: xfsy2018
     host: 101.200.40.98
     port: 6379
+    password: xfsy2018
+    cluster:
+      nodes:
